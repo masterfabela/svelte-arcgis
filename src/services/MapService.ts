@@ -8,10 +8,6 @@ export class MapService {
   private view: SceneView;
 
   constructor(domNode: HTMLDivElement) {
-    this.init(domNode);
-  }
-
-  private init(domNode: HTMLDivElement) {
     this.map = new Map({
       basemap: 'streets-vector',
     });
